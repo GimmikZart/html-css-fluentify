@@ -5,3 +5,151 @@
   padding: 0;
   margin: 0;
 }
+
+.contenuti {
+  width: 50%;
+  height: 100%;
+  margin: 0 25% 0 25%;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+/* ----------------------------------HEADER-------------------- */
+
+header{
+  width: 100%;
+  height: 500px;
+  border: 2px solid black;
+  background-image:url("../img/vecchi.JPG");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+
+/*------------- navigatore ------------ */
+
+#navigatore {
+  /* margin: 10px 25% 0px 25%; */
+  border: 2px solid red;
+  height: 60px;
+}
+
+#navigatore::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#logo {
+  float:left;
+  vertical-align: middle;
+}
+
+#navigatore ul {
+  float: left;
+  padding-left: 20px;
+  margin-top: 1%;
+}
+
+#navigatore li {
+  display: inline-block;
+  color: white;
+  padding: 0px 10px 0px 10px;
+}
+
+#credeziali {
+  border: 1px solid pink;
+  float: right;
+  margin-right: 20px;
+  padding-top: 1%;
+}
+
+#credeziali a {
+  margin: 0px 10px 0px 10px;
+  color: white;
+}
+
+#tutor {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+#login {
+  border: 1px solid #4783ac;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+
+}
+
+/* ----------testo header--------- */
+
+#testoheader {
+  border: 2px solid white;
+  margin-top: 100px;
+  color: white;
+}
+
+#testoheader h1 {
+  display: block;
+}
+
+.bottone{
+  margin-top: 30px;
+}
+
+.bottoneverde {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: green;
+  padding: 15px;
+}
+
+/*--------------------------MAIN------------------------------- */
+
+main section {
+  width: 100%;
+  height: 200px;
+  border: 2px solid blue;
+}
+
+
+/* --------sezione uno--------- */
+#sectionuno {
+  background-color: #f9f9f9;
+}
+
+
+/* --------sezione due--------- */
+
+
+/* --------sezione tre--------- */
+
+
+/* --------sezione quattro--------- */
+
+
+/* --------sezione cinque--------- */
+
+
+/* --------sezione sei--------- */
+
+
+/* --------sezione sette--------- */
+
+
+/* --------sezione otto--------- */
+
+
+/* --------sezione nove--------- */
+
+
+/* ---------------------------FOOTER------------------------------ */
+
+footer {
+  width: 100%;
+  height: 300px;
+  border: 2px solid red;
+}
