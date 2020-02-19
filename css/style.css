@@ -131,7 +131,7 @@ header{
 
 main section {
   width: 100%;
-  height: 200px;
+  /* height: 200px; */
   border: 2px solid blue;
 }
 
@@ -167,8 +167,9 @@ main section {
   /* debug */
   width: 33.33%;
   height: 100%;
-  border: 1px solid black;
-  background-color: rgb(90, 138, 244);
+  /* border: 1px solid black; */
+  /* background-color: rgb(90, 138, 244); */
+  padding: 20px;
     /* debug */
   float: left;
 }
@@ -177,9 +178,9 @@ main section {
   /* debug */
   width: 33.33%;
   height: 100%;
-    border: 1px solid black;
-    background-color: rgb(90, 138, 244);
-    /* debug */
+  /* border: 1px solid black; */
+  /* background-color: rgb(90, 138, 244); */
+  /* debug */
   float: left;
 }
 
@@ -187,10 +188,40 @@ main section {
   /* debug */
   width: 33.33%;
   height: 100%;
-    border: 1px solid black;
-    background-color: rgb(90, 138, 244);
+    /* border: 1px solid black; */
+    /* background-color: rgb(90, 138, 244); */
     /* debug */
   float: left;
+}
+
+#sectiondue img , #sectiondue h3 , #sectiondue p {
+      display:block;
+      margin:0px auto;
+      text-align:center;
+      padding: 10px 0 10px 0;
+}
+
+#sectiondue h3 {
+font-size: 23px;
+color:#7fb802;
+}
+
+#sectiondue p {
+  font-size: 15px;
+  color: #b4b4b4;
+  line-height: 25px;
+}
+
+#sectiondue .contenutodue img {
+  padding: 20px 0 40px 0;
+}
+
+#sectiondue .contenutodue p {
+  padding-top: 30px;
+}
+
+#sectiondue .contenutotre h3 {
+  padding: 20px 0 20px 0;
 }
 
 
