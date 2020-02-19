@@ -130,8 +130,9 @@ main section {
 #contenutouno {
   /* inizio debug */
   width: 400px;
-  height: 100px;
+  height: 100%;
   border: 1px solid black;
+  background-color: rgb(90, 138, 244);
   /* fine debug */
   margin: 0 auto;
 }
@@ -139,11 +140,13 @@ main section {
 
 /* --------sezione due--------- */
 
+
 #sectiondue .contenutouno {
   /* debug */
   width: 33.33%;
   height: 100%;
-    border: 1px solid black;
+  border: 1px solid black;
+  background-color: rgb(90, 138, 244);
     /* debug */
   float: left;
 }
@@ -153,6 +156,7 @@ main section {
   width: 33.33%;
   height: 100%;
     border: 1px solid black;
+    background-color: rgb(90, 138, 244);
     /* debug */
   float: left;
 }
@@ -162,6 +166,7 @@ main section {
   width: 33.33%;
   height: 100%;
     border: 1px solid black;
+    background-color: rgb(90, 138, 244);
     /* debug */
   float: left;
 }
@@ -172,11 +177,14 @@ main section {
 
 /* --------sezione tre--------- */
 
+
+
 #sectiontre .contenutouno{
   /* debug */
   width: 50%;
   height: 100%;
   border: 1px solid black;
+  background-color: rgb(90, 138, 244);
   /* debug */
   float: left;
 }
@@ -186,6 +194,7 @@ main section {
   width: 50%;
   height: 100%;
   border: 1px solid black;
+  background-color: rgb(90, 138, 244);
   /* debug */
   float: left;
 }
@@ -193,20 +202,157 @@ main section {
 
 /* --------sezione quattro--------- */
 
+#sectionquattro .contenutouno {
+  /* debug */
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: rgb(90, 138, 244);
+  /* debug */
+  float: left;
+}
+
+#sectionquattro .contenutodue {
+  /* debug */
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: rgb(90, 138, 244);
+  /* debug */
+  float: left;
+}
+
+
+
 
 /* --------sezione cinque--------- */
+#sectioncinque .contenutouno {
+  /* debug */
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: rgb(90, 138, 244);
+  /* debug */
+  float: left;
+}
+
+#sectioncinque .contenutodue {
+  /* debug */
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: rgb(90, 138, 244);
+  /* debug */
+  float: left;
+}
 
 
 /* --------sezione sei--------- */
+#sectionsei .contenutouno {
+  /* debug */
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: rgb(90, 138, 244);
+  /* debug */
+  float: left;
+}
+
+#sectionsei .contenutodue {
+  /* debug */
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: rgb(90, 138, 244);
+  /* debug */
+  float: left;
+}
+
 
 
 /* --------sezione sette--------- */
+#sectionsette .contenutouno {
+  /* debug */
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: rgb(90, 138, 244);
+  margin: 0 auto;
+  /* debug */
+}
+
+
 
 
 /* --------sezione otto--------- */
 
+#sectionotto .contenutouno {
+  /* debug */
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: rgb(90, 138, 244);
+  /* debug */
+  float: left;
+}
+
+#sectionotto .contenutodue {
+  /* debug */
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: rgb(90, 138, 244);
+  /* debug */
+  float: left;
+}
+
+
 
 /* --------sezione nove--------- */
+
+#sectionnove .contenutouno {
+  /* debug */
+  width: 50%;
+  height: 20%;
+  border: 1px solid black;
+  background-color: rgb(90, 138, 244);
+  margin: 0 auto;
+  margin-bottom: 10px;
+    /* debug */
+}
+
+#sectionnove .contenutodue {
+  /* debug */
+  width: 33.33%;
+  height: 80%;
+    border: 1px solid black;
+    background-color: rgb(90, 138, 244);
+    /* debug */
+  float: left;
+}
+
+#sectionnove .contenutotre {
+  /* debug */
+  width:33.33%;
+  height: 80%;
+    border: 1px solid black;
+    background-color: rgb(90, 138, 244);
+    /* debug */
+  float: left;
+}
+
+#sectionnove .contenutoquattro {
+  /* debug */
+  width: 33.33%;
+  height: 80%;
+    border: 1px solid black;
+    background-color: rgb(90, 138, 244);
+    /* debug */
+  float: left;
+}
+
+
+
 
 
 /* ---------------------------FOOTER------------------------------ */
